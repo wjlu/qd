@@ -23,7 +23,6 @@ class QidianSpider(Spider):
         item['data']=response.xpath('//div[@class="left-wrap fl"]//li[@class="update"]//a/text()').extract()
         # item['data']= response.xpath('//div[@class="volume"][last()]//li[last()]/a/text()').extract()
         print(item['data'])
-        # item = UserItem()
 
         yield item
 

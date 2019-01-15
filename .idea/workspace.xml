@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90aa7416-ad57-4e9f-b635-ea8f59ab7670" name="Default Changelist" comment="" />
+    <list default="true" id="90aa7416-ad57-4e9f-b635-ea8f59ab7670" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/qd/spiders/qidian.py" beforeDir="false" afterPath="$PROJECT_DIR$/qd/spiders/qidian.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/qd/spiders/qidian.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#24#44#0" expanded="true" />
               </folding>
@@ -98,7 +100,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/qidian" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -143,11 +145,6 @@
               <item name="qd" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="qd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qd" type="462c0819:PsiDirectoryNode" />
-              <item name="qidian" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -188,12 +185,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547451587214</updated>
-      <workItem from="1547451590527" duration="12938000" />
+      <workItem from="1547451590527" duration="13160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12938000" />
+    <option name="totallyTimeSpent" value="13160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="23" width="1389" height="828" extended-state="0" />
@@ -273,8 +270,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qd/spiders/qidian.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#24#44#0" expanded="true" />
           </folding>
