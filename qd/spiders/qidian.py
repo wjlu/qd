@@ -31,6 +31,5 @@ class QidianSpider(Spider):
         print('aaajieshula')
         emailSenderClient = emailSender()
         toSendEmailLst = ['844916536@qq.com', 'lwj.198@163.com']
-        # finishTime = datetime.datetime.now()
         subject='起点小说'
         emailSenderClient.sendEmail(toSendEmailLst, subject)
