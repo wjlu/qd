@@ -28,7 +28,6 @@ class QidianSpider(Spider):
 
     @staticmethod
     def close(spider,reason):
-        print('aaajieshula')
         emailSenderClient = emailSender()
         toSendEmailLst = ['844916536@qq.com', 'lwj.198@163.com']
         subject='起点小说'

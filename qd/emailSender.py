@@ -2,7 +2,6 @@
 import smtplib
 from email.mime.text import MIMEText
 from scrapy.conf import settings
-from qd.pipelines import MongoPipeline
 from pymongo import MongoClient
 
 class MongoDBClient(object):
@@ -51,15 +50,20 @@ class emailSender(object):
         message['To'] = ",".join(toLst)             # 收件人列表
         message['Subject'] = subject                # 邮件标题
 
-        try:
-            smtpSSLClient = smtplib.SMTP_SSL(self.smtp_host, self.smtp_port)   # 实例化一个SMTP_SSL对象
-            loginRes = smtpSSLClient.login(self.smtp_user, self.smtp_pwd)      # 登录smtp服务器
-            print(f"登录结果：loginRes = {loginRes}")    # loginRes = (235, b'Authentication successful')
-            if loginRes and loginRes[0] == 235:
-                print(f"登录成功，code = {loginRes[0]}")
-                smtpSSLClient.sendmail(self.sender, toLst, message.as_string())
-                print(f"mail has been send successfully. message:{message.as_string()}")
-            else:
-                print(f"登陆失败，code = {loginRes[0]}")
-        except Exception as e:
-            print(f"发送失败，Exception: e={e}")
+        if body !="该小时内无最新小说":
+            try:
+                print('ready to send')
+                smtpSSLClient = smtplib.SMTP_SSL(self.smtp_host, self.smtp_port)   # 实例化一个SMTP_SSL对象
+                loginRes = smtpSSLClient.login(self.smtp_user, self.smtp_pwd)      # 登录smtp服务器
+                print(f"登录结果：loginRes = {loginRes}")    # loginRes = (235, b'Authentication successful')
+                if loginRes and loginRes[0] == 235:
+                    print(f"登录成功，code = {loginRes[0]}")
+                    smtpSSLClient.sendmail(self.sender, toLst, message.as_string())
+                    print(f"mail has been send successfully. message:{message.as_string()}")
+                else:
+                    print(f"登陆失败，code = {loginRes[0]}")
+            except Exception as e:
+                print(f"发送失败，Exception: e={e}")
+        else:
+            pass
+
