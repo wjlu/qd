@@ -8,7 +8,7 @@ import datetime
 class QidianSpider(Spider):
     name = 'qidian'
     allowed_domains = ['www.qidian.com']
-    start_urls = ['1011097497', '1004986370', '1012284323', '1013311315']
+    start_urls = ['1011097497', '1004986370', '1012284323', '1013311315','1013719800']
 
     def start_requests(self):
         for page in self.start_urls:

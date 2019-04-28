@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="90aa7416-ad57-4e9f-b635-ea8f59ab7670" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qd/emailSender.py" beforeDir="false" afterPath="$PROJECT_DIR$/qd/emailSender.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qd/spiders/qidian.py" beforeDir="false" afterPath="$PROJECT_DIR$/qd/spiders/qidian.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/qd/spiders/qidian.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="150">
+              <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
               <folding>
                 <element signature="e#24#44#0" expanded="true" />
               </folding>
@@ -34,10 +33,10 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qd/emailSender.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
+            <state relative-caret-position="555">
               <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
               <folding>
                 <element signature="e#24#38#0" expanded="true" />
@@ -112,8 +111,8 @@
         <option value="$PROJECT_DIR$/qd/items.py" />
         <option value="$PROJECT_DIR$/qd/settings.py" />
         <option value="$PROJECT_DIR$/qd/pipelines.py" />
-        <option value="$PROJECT_DIR$/qd/spiders/qidian.py" />
         <option value="$PROJECT_DIR$/qd/emailSender.py" />
+        <option value="$PROJECT_DIR$/qd/spiders/qidian.py" />
       </list>
     </option>
   </component>
@@ -221,23 +220,24 @@
       <workItem from="1547620850666" duration="2199000" />
       <workItem from="1547641418342" duration="812000" />
       <workItem from="1548153105001" duration="510000" />
-      <workItem from="1555947352129" duration="758000" />
+      <workItem from="1555947352129" duration="1424000" />
+      <workItem from="1556431706090" duration="62000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17760000" />
+    <option name="totallyTimeSpent" value="18488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="23" width="1389" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26429102" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26800296" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32959327" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32959327" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -295,22 +295,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qd/spiders/qidian.py">
+    <entry file="file://$PROJECT_DIR$/qd/emailSender.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="555">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
           <folding>
-            <element signature="e#24#44#0" expanded="true" />
+            <element signature="e#24#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qd/emailSender.py">
+    <entry file="file://$PROJECT_DIR$/qd/spiders/qidian.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        <state relative-caret-position="150">
+          <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
           <folding>
-            <element signature="e#24#38#0" expanded="true" />
+            <element signature="e#24#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
