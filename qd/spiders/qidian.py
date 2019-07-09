@@ -5,7 +5,6 @@ from qd.items import UserItem
 from qd.emailSender import emailSender  # 导入发信模块
 import datetime
 
-# aaa
 class QidianSpider(Spider):
     name = 'qidian'
     allowed_domains = ['www.qidian.com']
